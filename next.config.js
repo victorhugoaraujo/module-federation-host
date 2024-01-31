@@ -10,7 +10,7 @@ const nextConfig = {
         name: 'main',
         remotes: {
           fop: `fop@http://localhost:3001/_next/static/${isServer ? 'ssr' : 'chunks'}/remoteEntry.js`,
-          selfdesign: `selfdesign@http://localhost:3002/_next/static/${isServer ? 'ssr' : 'chunks'}/remoteEntry.js`,
+          selfdesign: `selfdesign@https://module-federation-remote-five.vercel.app/_next/static/${isServer ? 'ssr' : 'chunks'}/remoteEntry.js`,
         },
         filename: 'static/chunks/remoteEntry.js',
         exposes: {
